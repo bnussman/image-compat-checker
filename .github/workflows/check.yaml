@@ -23,3 +23,5 @@ jobs:
 
       - name: Run Bun script
         run: bun run index.ts
+        env:
+          LINODE_TOKEN: ${{ secrets.LINODE_TOKEN }} 
