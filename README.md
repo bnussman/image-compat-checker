@@ -1,5 +1,13 @@
 # image-compat-checker
 
+## How to use this
+
+This checker script runs on a cron. To see the results just go [here](https://github.com/bnussman/image-compat-checker/actions/workflows/check.yaml) and view the output of the latest run.
+
+## To run / develop this locally
+
+Install bun first, then....
+
 To install dependencies:
 
 ```bash
