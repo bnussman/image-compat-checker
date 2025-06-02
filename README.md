@@ -4,7 +4,9 @@
 
 This checker script runs on a cron. To see the results just go [here](https://github.com/bnussman/image-compat-checker/actions/workflows/check.yaml) and view the output of the latest run.
 
-I can also manually trigger the workflow run
+I can also manually trigger the workflow run on request.
+
+You can also run this locally, but you must supply a Linode API token in your env (`LINODE_TOKEN`). You can use a `.env` file or put it in your env some other way.
 
 ## To run / develop this locally
 
